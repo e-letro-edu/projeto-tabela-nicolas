@@ -27,6 +27,8 @@ match tabela:
 
             contador += 1
 
+            print ('calculadora top')
+
         with open(nome_arquivo, "w", newline="", encoding="utf-8") as f:
             campos = ["Nome", "Idade", "Cidade"]
             writer = csv.DictWriter(f, fieldnames=campos)
